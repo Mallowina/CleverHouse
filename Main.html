@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Задания</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://allfont.ru/allfont.css?fonts=great-vibes" rel="stylesheet" type="text/css" />
+    <link href="https://allfont.ru/allfont.css?fonts=micra" rel="stylesheet" type="text/css" />
+    <!-- <link rel="shortcut icon" href="icon.png" type="image/png"> -->
+  </head>
+  <body>
+      <header style = "background-color:#2F4F4F; height:8vh">
+          <a name="begin"><h1 class="text">SmartHouse</h1></a>
+      </header>
+      <nav>
+        <a href = "#">Главная</a> |
+        <a href = "#">Настройки</a> |
+        <a href = "#">Контакты</a> |
+      </nav>
+      <main style = "height:484vh">
+        
+        <a class="fixedbut" href="#begin">
+          <img src="button_return.png" height= 40px></a>      
+
+        <aside style  = "float:right; width:20vh; height:60vh; margin-top: 12vh; ">          
+          <img class="image" onclick="confirm('Отключить электричество во всём доме?')" src="electric.jpg"><br>
+          <img class="image" onclick="confirm('Отключить газ?')" src="gas.png"><br>
+          <img class="image" onclick="confirm('Отключить свет во всём доме?')" src="light.png"><br>
+          <img class="image" onclick="confirm('Отключить воду?')" src="water.png"><br>
+          <img class="image" onclick="confirm('Отключить отопление во всём доме?')" src="regtemp.png"><br>
+        </aside>
+        <aside style  = "float:right; width:30vh; height:60vh; margin-top: 12vh;">
+            <a class="button9" href="#livingroom" style="margin-bottom: 1vh; margin-top: 1vh; width: 45%;">Гостинная</a><br>
+            <a class="button9" href="#kitchen" style="margin-bottom: 1vh; margin-top: 1vh; width: 45%;">Кухня</a><br>
+            <a class="button9" href="#toilet" style="margin-bottom: 1vh; margin-top: 1vh; width: 45%;">Санузел</a><br>
+            <a class="button9" href="#hall" style="margin-bottom: 1vh; margin-top: 1vh; width: 45%;">Коридор</a><br>
+        </aside>
+
+        <section class="section_main">       
+            <img src="main_house.png" class="main_img">
+                     
+         </section>
+
+         <aside style  = "float:right; width:70vh; height:80vh; margin-top: 12vh; margin-right: 20vh;">
+          <ul class='vertical-menu'>
+            <li class='drop-link'>Работа электричества
+              <ul class='drop-block'>
+                <li>В розетке А
+                  <div class="toggle-button-cover">
+                    <div class="button r" id="button-3">
+                      <input type="checkbox" class="checkbox" > 
+                      <div class="knobs"></div>
+                      <div class="layer"></div>
+                    </div>
+                  </div> 
+                </li>
+                <li>Во всех розетках
+                  <div class="toggle-button-cover">
+                    <div class="button r" id="button-3">
+                      <input type="checkbox" class="checkbox">
+                      <div class="knobs"></div>
+                      <div class="layer"></div>
+                    </div>
+                  </div> 
+                </li>
+                <li>Во всей комнате
+                  <div class="toggle-button-cover">
+                    <div class="button r" id="button-3">
+                      <input type="checkbox" class="checkbox">
+                      <div class="knobs"></div>
+                      <div class="layer"></div>
+                    </div>
+                  </div> 
+                </li>
+              </ul>
+            <li class='drop-link'>Свет
+              <ul class='drop-block'>
+                <li>Светилник (ночник)
+                  <div class="toggle-button-cover">
+                    <div class="button r" id="button-3">
+                      <input type="checkbox" class="checkbox" > 
+                      <div class="knobs"></div>
+                      <div class="layer"></div>
+                    </div>
+                  </div> 
+                </li>
+                <li>Люстра
+                  <div class="toggle-button-cover">
+                    <div class="button r" id="button-3">
+                      <input type="checkbox" class="checkbox">
+                      <div class="knobs"></div>
+                      <div class="layer"></div>
+                    </div>
+                  </div> 
+                </li>
+                <li>Во всей комнате
+                  <div class="toggle-button-cover">
+                    <div class="button r" id="button-3">
+                      <input type="checkbox" class="checkbox">
+                      <div class="knobs"></div>
+                      <div class="layer"></div>
+                    </div>
+                  </div> 
+                </li>
+              </ul>
+            <li class='drop-link'>Отопление
+              <ul class='drop-block'>
+                <li>Работа
+                  <div class="toggle-button-cover">
+                    <div class="button r" id="button-3">
+                      <input type="checkbox" class="checkbox" > 
+                      <div class="knobs"></div>
+                      <div class="layer"></div>
+                    </div>
+                  </div> 
+                </li>                
+              </ul>
+            </li>            
+          </ul>
+        </aside>
+
+        <section class="section_style">
+          <a name = "livingroom"><h4>Гостинная</h4></a>
+          
+          <img src="livingroom1.png">
+        </section>
+
+        <aside style  = "float:right; width:70vh; height:80vh; margin-top: 12vh; margin-right: 20vh;">
+          <ul class='vertical-menu'>
+            <li class='drop-link'>Работа электричества
+              <ul class='drop-block'>
+                <li>В розетке А
+                  <div class="toggle-button-cover">
+                    <div class="button r" id="button-3">
+                      <input type="checkbox" class="checkbox" > 
+                      <div class="knobs"></div>
+                      <div class="layer"></div>
+                    </div>
+                  </div> 
+                </li>
+                <li>Во всех розетках
+                  <div class="toggle-button-cover">
+                    <div class="button r" id="button-3">
+                      <input type="checkbox" class="checkbox">
+                      <div class="knobs"></div>
+                      <div class="layer"></div>
+                    </div>
+                  </div> 
+                </li>
+                <li>Во всей комнате
+                  <div class="toggle-button-cover">
+                    <div class="button r" id="button-3">
+                      <input type="checkbox" class="checkbox">
+                      <div class="knobs"></div>
+                      <div class="layer"></div>
+                    </div>
+                  </div> 
+                </li>
+              </ul>
+            <li class='drop-link'>Газ
+              <ul class='drop-block'>
+                <li>Работа
+                  <div class="toggle-button-cover">
+                    <div class="button r" id="button-3">
+                      <input type="checkbox" class="checkbox" > 
+                      <div class="knobs"></div>
+                      <div class="layer"></div>
+                    </div>
+                  </div> 
+                </li>                
+              </ul>
+            <li class='drop-link'>Свет
+              <ul class='drop-block'>
+                <li>Светилник (ночник)
+                  <div class="toggle-button-cover">
+                    <div class="button r" id="button-3">
+                      <input type="checkbox" class="checkbox" > 
+                      <div class="knobs"></div>
+                      <div class="layer"></div>
+                    </div>
+                  </div> 
+                </li>
+                <li>Люстра
+                  <div class="toggle-button-cover">
+                    <div class="button r" id="button-3">
+                      <input type="checkbox" class="checkbox">
+                      <div class="knobs"></div>
+                      <div class="layer"></div>
+                    </div>
+                  </div> 
+                </li>
+                <li>Во всей комнате
+                  <div class="toggle-button-cover">
+                    <div class="button r" id="button-3">
+                      <input type="checkbox" class="checkbox">
+                      <div class="knobs"></div>
+                      <div class="layer"></div>
+                    </div>
+                  </div> 
+                </li>
+              </ul>
+            <li class='drop-link'>Вода
+              <ul class='drop-block'>
+                <li>Работа
+                  <div class="toggle-button-cover">
+                    <div class="button r" id="button-3">
+                      <input type="checkbox" class="checkbox" > 
+                      <div class="knobs"></div>
+                      <div class="layer"></div>
+                    </div>
+                  </div> 
+                </li>                
+              </ul>
+            <li class='drop-link'>Отопление
+              <ul class='drop-block'>
+                <li>Работа
+                  <div class="toggle-button-cover">
+                    <div class="button r" id="button-3">
+                      <input type="checkbox" class="checkbox" > 
+                      <div class="knobs"></div>
+                      <div class="layer"></div>
+                    </div>
+                  </div> 
+                </li>                
+              </ul>
+            </li>            
+          </ul>
+        </aside>
+
+        <section class="section_style">
+          <a name = "kitchen"><h4>Кухня</h4></a>
+          
+          <img src="kitchen1.png" height="60%">
+        </section>
+
+        <aside style  = "float:right; width:70vh; height:80vh; margin-top: 12vh; margin-right: 20vh;">
+          <ul class='vertical-menu'>
+            <li class='drop-link'>Электричество
+              <ul class='drop-block'>
+                <li>Работа
+                  <div class="toggle-button-cover">
+                    <div class="button r" id="button-3">
+                      <input type="checkbox" class="checkbox" > 
+                      <div class="knobs"></div>
+                      <div class="layer"></div>
+                    </div>
+                  </div> 
+                </li>               
+              </ul>
+            <li class='drop-link'>Свет
+              <ul class='drop-block'>
+                <li>Работа
+                  <div class="toggle-button-cover">
+                    <div class="button r" id="button-3">
+                      <input type="checkbox" class="checkbox">
+                      <div class="knobs"></div>
+                      <div class="layer"></div>
+                    </div>
+                  </div> 
+                </li>
+              </ul>
+            <li class='drop-link'>Вода
+              <ul class='drop-block'>
+                <li>Работа
+                  <div class="toggle-button-cover">
+                    <div class="button r" id="button-3">
+                      <input type="checkbox" class="checkbox" > 
+                      <div class="knobs"></div>
+                      <div class="layer"></div>
+                    </div>
+                  </div> 
+                </li>                
+              </ul>           
+          </ul>
+        </aside>
+
+        <section class="section_style">
+          <a name = "toilet"><h4>Санузел</h4></a>
+          
+          <img src="toilet1.png" height="70%">
+        </section>
+
+        <aside style  = "float:right; width:70vh; height:80vh; margin-top: 12vh; margin-right: 20vh;">
+          <ul class='vertical-menu'>
+            <li class='drop-link'>Работа электричества
+              <ul class='drop-block'>
+                <li>В розетке А
+                  <div class="toggle-button-cover">
+                    <div class="button r" id="button-3">
+                      <input type="checkbox" class="checkbox" > 
+                      <div class="knobs"></div>
+                      <div class="layer"></div>
+                    </div>
+                  </div> 
+                </li>
+                <li>Во всех розетках
+                  <div class="toggle-button-cover">
+                    <div class="button r" id="button-3">
+                      <input type="checkbox" class="checkbox">
+                      <div class="knobs"></div>
+                      <div class="layer"></div>
+                    </div>
+                  </div> 
+                </li>
+                <li>Во всем коридоре
+                  <div class="toggle-button-cover">
+                    <div class="button r" id="button-3">
+                      <input type="checkbox" class="checkbox">
+                      <div class="knobs"></div>
+                      <div class="layer"></div>
+                    </div>
+                  </div> 
+                </li>
+              </ul>
+            <li class='drop-link'>Свет
+              <ul class='drop-block'>
+                <li>Светилник (ночник)
+                  <div class="toggle-button-cover">
+                    <div class="button r" id="button-3">
+                      <input type="checkbox" class="checkbox" > 
+                      <div class="knobs"></div>
+                      <div class="layer"></div>
+                    </div>
+                  </div> 
+                </li>
+                <li>Люстра
+                  <div class="toggle-button-cover">
+                    <div class="button r" id="button-3">
+                      <input type="checkbox" class="checkbox">
+                      <div class="knobs"></div>
+                      <div class="layer"></div>
+                    </div>
+                  </div> 
+                </li>
+                <li>Во всем коридоре
+                  <div class="toggle-button-cover">
+                    <div class="button r" id="button-3">
+                      <input type="checkbox" class="checkbox">
+                      <div class="knobs"></div>
+                      <div class="layer"></div>
+                    </div>
+                  </div> 
+                </li>
+              </ul>            
+            <li class='drop-link'>Отопление
+              <ul class='drop-block'>
+                <li>Работа
+                  <div class="toggle-button-cover">
+                    <div class="button r" id="button-3">
+                      <input type="checkbox" class="checkbox" > 
+                      <div class="knobs"></div>
+                      <div class="layer"></div>
+                    </div>
+                  </div> 
+                </li>                
+              </ul>
+            </li>            
+          </ul>
+        </aside>
+
+        <section class="section_style">
+          <a name = "hall"><h4>Коридор</h4></a>
+          
+          <img src="hall1.png" height="60%">     
+        </section>
+      </main>
+    
+      <footer>
+        <!-- <p>Нижний колонтитул (подвал) тег footer</p>  -->
+        <address>Контакты: </address>
+        <p>©</p>
+      </footer>
+          
+  </body>
+  </html>
